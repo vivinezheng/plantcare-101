@@ -1,0 +1,13 @@
+* {
+    font-family: 'Architects Daughter', cursive;
+}
+grid-container {
+    display: grid;
+}
+grid-header {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+grid-article {
+    grid-row: 2;
+}
