@@ -116,10 +116,26 @@
   background-color: black;
 }
 
-.footer.nav {
-  float: left;
+.footer-container {
+  padding-top: 20px;
 }
 
 .footer-nav-right {
   float: right;
+}
+
+.category, .subcategory {
+  display: inline-block;
+  padding-left: 12px; 
+  padding-right: 20px;
+}
+
+.category a, .subcategory a {
+  text-decoration: none;
+  color: black;
+}
+
+.category a:hover, .subcategory a:hover {
+  text-decoration: underline;
+  color: grey;
 }
