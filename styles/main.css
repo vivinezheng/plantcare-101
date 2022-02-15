@@ -68,6 +68,7 @@ table {
   float: left;
   font-size: 14px;
   font-family: 'Courier New', Courier, monospace;
+  padding-top: 5px;
 }
 
 .navbar-right {
