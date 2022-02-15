@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+
+
 /* navbar container */
 .navbar {
   overflow: auto;
@@ -123,7 +125,7 @@ table {
   display: block;
 }
 
-.content {
+.col-12 {
   margin-top: 12px;
   padding: 12px 16px;
   background-image: url(https://images.unsplash.com/photo-1520302630591-fd1c66edc19d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3VjY3VsZW50fGVufDB8fDB8fA%3D%3D&w=1000&q=80);
@@ -145,7 +147,7 @@ table {
   transform: translate(-50%, -50%);
 }
 
-.column {
+.col-4 {
   margin: 16px 0px;
   width: 33.33%;
   float: left;
