@@ -70,6 +70,9 @@ table {
 }
 
 @media only screen and (min-width: 768px) {
+  [class*="col-6"] {
+    width: 50%;
+  }
   [class*="col-4"] {
     width: 33.33%;
   }
@@ -207,6 +210,11 @@ body {
   width: 80%;
   height: 25%;
   padding: 10px 0px;
+}
+
+.col-6 {
+  margin: 16px 0px;
+  float: left;
 }
 
 .col-4 {
