@@ -47,7 +47,28 @@ table {
 	border-spacing: 0;
 }
 
+/* include padding and border in dimensions */
+* {
+  box-sizing: border-box;
+} 
 
+/* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+} 
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones and tablets: */
+  [class*="col-"] {
+      width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  [class*="col-4"] {
+    width: 33.33%;
+  }
+} 
 
 /* navbar container */
 .navbar {
@@ -145,6 +166,14 @@ table {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 25%;
 }
 
 .col-4 {
